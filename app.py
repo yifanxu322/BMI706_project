@@ -318,7 +318,7 @@ def show_task3():
             )
 
             st.altair_chart(panelA_chart, use_container_width=False)
-
+ 
     # B
     with colB:
         st.markdown("##### Panel B: Top 5 in selected year")
