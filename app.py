@@ -136,7 +136,7 @@ with colB:
 st.markdown("---")
 st.title("Visual 3.2: Compact Coverage Comparison")
 
-#  Developed classification
+#  Developed 
 developed_set = {
     "Australia","Austria","Belgium","Canada","Denmark","Finland","France","Germany","Iceland",
     "Ireland","Israel","Italy","Japan","Luxembourg","Netherlands (Kingdom of the)","New Zealand",
