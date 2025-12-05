@@ -1,15 +1,123 @@
 import altair as alt
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 
-# ================================
-# GLOBAL PAGE SETUP
-# ================================
+####task1
+# ---------- Page config ----------
+st.set_page_config(
+    page_title="TB Incidence and Mortality Trends",
+    layout="wide"
+)
+
+# ---------- Load data ----------
+@st.cache_data
+def load_data():
+    df = pd.read_csv("data/visual1.csv")
+    return df
+
+df = load_data()
+
+# ---------- Title & description ----------
+st.title("Global and Regional TB Incidence and Mortality (2017–2023)")
+
+st.write(
+    """
+    This app shows **global** and **WHO regional** trends in TB incidence and mortality rates 
+    per 100,000 population, with 95% confidence intervals. Use the controls in the sidebar to 
+    pick a region and which measures to display.
+    """
+)
+
+# ---------- Sidebar controls ----------
+st.sidebar.header("Controls")
+
+# Region selector (exclude Global from dropdown; Global is always used as reference)
+region_options = sorted([r for r in df["region"].unique() if r != "Global"])
+default_region = "Africa" if "Africa" in region_options else region_options[0]
+
+region = st.sidebar.selectbox(
+    "Select WHO region",
+    options=region_options,
+    index=region_options.index(default_region)
+)
+
+measure_options = sorted(df["measure"].unique())  # ['Incidence', 'Mortality']
+selected_measures = st.sidebar.multiselect(
+    "Measures to display",
+    options=measure_options,
+    default=measure_options   # show both by default
+)
+
+show_ci = st.sidebar.checkbox(
+    "Show 95% confidence interval bands",
+    value=True
+)
+
+# ---------- Filter data for plot ----------
+plot_df = df[
+    ((df["region"] == region) | (df["region"] == "Global")) &
+    (df["measure"].isin(selected_measures))
+].copy()
+
+# Create a combined label for each line (e.g. "Global Incidence", "Regional Mortality")
+plot_df["series"] = plot_df["level"] + " " + plot_df["measure"]
+
+# ---------- Build Altair chart ----------
+if plot_df.empty:
+    st.warning("No data available for this combination of region and measures.")
+else:
+    base = alt.Chart(plot_df).encode(
+        x=alt.X("year:O", title="Year"),
+        y=alt.Y("rate:Q", title="Rate per 100,000"),
+        color=alt.Color("series:N", title="Series"),
+        tooltip=[
+            "year:O",
+            "region:N",
+            "level:N",
+            "measure:N",
+            "rate:Q",
+            "ci_low:Q",
+            "ci_high:Q"
+        ]
+    )
+
+    lines = base.mark_line(point=True)
+
+    if show_ci:
+        bands = alt.Chart(plot_df).mark_area(opacity=0.2).encode(
+            x="year:O",
+            y="ci_low:Q",
+            y2="ci_high:Q",
+            color=alt.Color("series:N", legend=None)
+        )
+        chart = bands + lines
+    else:
+        chart = lines
+
+    chart = chart.properties(
+        width=800,
+        height=400,
+        title=f"TB incidence and mortality: {region} vs Global"
+    ).interactive()
+
+    st.altair_chart(chart, use_container_width=True)
+
+    # Optional: show the filtered data table underneath
+    with st.expander("Show data used in this plot"):
+        st.dataframe(
+            plot_df.sort_values(["measure", "level", "year"])[
+                ["year", "region", "level", "measure", "rate", "ci_low", "ci_high"]
+            ]
+        )
+####task 2
+
+
+####task 3
+
 st.set_page_config(layout="wide")
 
-# ================================
-# LOAD DATA
-# ================================
+
 @st.cache_data
 def load_tb_cov_data():
     return pd.read_csv("data/visual3.csv")
@@ -95,9 +203,9 @@ with colA:
 
         st.altair_chart(panelA_chart, use_container_width=False)
 
-# ----------------- PANEL B: Top 10 countries -----------------
+# PanelB
 with colB:
-    st.subheader("Panel B: Top 10 in selected year")
+    st.subheader("Panel B: Top 5 in selected year")
 
     year_min = int(tb_cov_df[year_col].min())
     year_max = int(tb_cov_df[year_col].max())
@@ -132,7 +240,7 @@ with colB:
 
     st.altair_chart(top5_chart, use_container_width=False)
 
-# ========= Visual 3.2 below ===========
+# Heatmap
 st.markdown("---")
 st.title("Visual 3.2: Compact Coverage Comparison")
 
@@ -186,12 +294,12 @@ compact = lambda data, title: (
 
 heat_dev = compact(
     tb_cov_df[tb_cov_df["DEV_STATUS"] == "Developed"],
-    "Developed"
+    "Developed countries"
 )
 
 heat_developing = compact(
     tb_cov_df[(tb_cov_df["DEV_STATUS"] == "Developing") & (tb_cov_df[country_col].isin(worstDeveloping))],
-    "Developing (lowest)"
+    "Developing (lowest) countries"
 )
 
 center = st.columns([1, 3, 1])[1]
