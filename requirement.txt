@@ -1,5 +1,0 @@
-streamlit
-altair
-pandas
-plotly
-vega_datasets
