@@ -68,6 +68,16 @@ def show_task1():
             "Show 95% confidence interval bands",
             value=True,
         )
+    # Sidebar Description
+    st.sidebar.markdown(
+    """
+    Tools:  
+    - **Dark red** = Regional incidence  
+    - **Light red** = Regional mortality  
+    - **Dark blue** = Global incidence  
+    - **Light blue** = Global mortality  
+    """
+    )
 
     # Filter & Plot
     plot_df = df[
