@@ -550,7 +550,7 @@ def load_task4_data(region_key):
 
 def show_task4():
     st.title("Task 4 – TB Incidence and RR-TB Prevalence Trends")
-    st.subheader("Visual 4: Incidence vs rifampicin-resistant TB (2015–2023)")
+    st.subheader("Visual 4: Incidence vs rifampicin-resistant TB (2017–2023)")
 
     st.write(
         "This visual compares **overall TB incidence** with **rifampicin-resistant (RR-TB) "
@@ -621,7 +621,7 @@ def show_task4():
     )
 
     chart = alt.layer(ci_band, lines).properties(
-        title=f"{selected_region}: Incidence and RR-TB trends (2015–2023)", height=420
+        title=f"{selected_region}: Incidence and RR-TB trends (2017–2023)", height=420
     ).interactive()
 
     st.altair_chart(chart, use_container_width=True)
