@@ -69,36 +69,7 @@ def show_task1():
             value=True,
         )
     
-    # Sidebar 2x2 color legend
-    st.sidebar.markdown(
-    """
-    ### Color Guide (2×2)
-
-    <table style="border-collapse: collapse; width: 100%;">
-        <tr>
-            <td style="padding: 6px; text-align:center;">
-                <div style="width:16px; height:16px; background-color:#b30000; margin:auto;"></div>
-                <span style="font-size:13px;"><b>Regional<br>Incidence</b></span>
-            </td>
-            <td style="padding: 6px; text-align:center;">
-                <div style="width:16px; height:16px; background-color:#003f7f; margin:auto;"></div>
-                <span style="font-size:13px;"><b>Global<br>Incidence</b></span>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding: 6px; text-align:center;">
-                <div style="width:16px; height:16px; background-color:#ff9999; margin:auto;"></div>
-                <span style="font-size:13px;"><b>Regional<br>Mortality</b></span>
-            </td>
-            <td style="padding: 6px; text-align:center;">
-                <div style="width:16px; height:16px; background-color:#99c2ff; margin:auto;"></div>
-                <span style="font-size:13px;"><b>Global<br>Mortality</b></span>
-            </td>
-        </tr>
-    </table>
-    """,
-    unsafe_allow_html=True
-)
+  
 
     # Filter & Plot
     plot_df = df[
