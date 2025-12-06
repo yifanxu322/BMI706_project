@@ -235,7 +235,12 @@ def load_tb_cov_data():
 
 def show_task3():
     tb_cov_df = load_tb_cov_data()
-
+    tb_cov_df["COUNTRY"] = (
+    tb_cov_df["COUNTRY"]
+    .astype(str)
+    .str.encode("latin-1", errors="ignore")
+    .str.decode("utf-8", errors="ignore")
+)
     # Robust column detection
     def find_col(target: str) -> str:
         target = target.upper()
