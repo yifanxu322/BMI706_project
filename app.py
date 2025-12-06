@@ -537,7 +537,7 @@ def load_task4_data(region_key):
 
         if not inc_clean.empty and not rr_clean.empty:
             merged = pd.merge(inc_clean, rr_clean, on="year", how="inner")
-            merged = merged[(merged["year"] >= 2015) & (merged["year"] <= 2023)]
+            merged = merged[(merged["year"] >= 2017) & (merged["year"] <= 2023)]
             return merged
         else:
             return pd.DataFrame()
