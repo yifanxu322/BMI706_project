@@ -1331,15 +1331,15 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,Cuba,Percentage,70,60,84
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Cuba,Percentage,99,84,120
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,Cuba,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2013,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2014,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2015,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,Cura鑾絘o,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Cura鑾絘o,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2013,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2014,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2015,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,Cuba,Percentage,87,75,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Cuba,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,Cyprus,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,Cyprus,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,Cyprus,Percentage,87,75,100
@@ -1852,29 +1852,29 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,Costa Rica,Percentage,69,53,91
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Costa Rica,Percentage,77,58,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,Costa Rica,Percentage,94,70,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,C涔坱e d'Ivoire,Percentage,23,10,96
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,C涔坱e d'Ivoire,Percentage,26,12,99
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,C涔坱e d'Ivoire,Percentage,26,12,90
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2003,C涔坱e d'Ivoire,Percentage,30,15,93
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2004,C涔坱e d'Ivoire,Percentage,36,18,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2005,C涔坱e d'Ivoire,Percentage,37,19,94
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2006,C涔坱e d'Ivoire,Percentage,41,22,97
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2007,C涔坱e d'Ivoire,Percentage,47,27,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2008,C涔坱e d'Ivoire,Percentage,50,29,110
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2009,C涔坱e d'Ivoire,Percentage,50,30,99
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,C涔坱e d'Ivoire,Percentage,52,32,99
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,C涔坱e d'Ivoire,Percentage,53,33,97
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,C涔坱e d'Ivoire,Percentage,57,36,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2013,C涔坱e d'Ivoire,Percentage,61,42,95
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2014,C涔坱e d'Ivoire,Percentage,58,38,98
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2015,C涔坱e d'Ivoire,Percentage,56,37,93
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,C涔坱e d'Ivoire,Percentage,54,36,88
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,C涔坱e d'Ivoire,Percentage,53,36,86
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2018,C涔坱e d'Ivoire,Percentage,54,37,85
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2019,C涔坱e d'Ivoire,Percentage,55,38,85
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2020,C涔坱e d'Ivoire,Percentage,51,36,81
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,C涔坱e d'Ivoire,Percentage,55,37,88
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,C涔坱e d'Ivoire,Percentage,58,39,96
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,Costa Rica,Percentage,23,10,96
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,Costa Rica,Percentage,26,12,99
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,Costa Rica,Percentage,26,12,90
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2003,Costa Rica,Percentage,30,15,93
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2004,Costa Rica,Percentage,36,18,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2005,Costa Rica,Percentage,37,19,94
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2006,Costa Rica,Percentage,41,22,97
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2007,Costa Rica,Percentage,47,27,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2008,Costa Rica,Percentage,50,29,110
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2009,Costa Rica,Percentage,50,30,99
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,Costa Rica,Percentage,52,32,99
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,Costa Rica,Percentage,53,33,97
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,Costa Rica,Percentage,57,36,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2013,Costa Rica,Percentage,61,42,95
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2014,Costa Rica,Percentage,58,38,98
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2015,Costa Rica,Percentage,56,37,93
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,Costa Rica,Percentage,54,36,88
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,Costa Rica,Percentage,53,36,86
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2018,Costa Rica,Percentage,54,37,85
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2019,Costa Rica,Percentage,55,38,85
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2020,Costa Rica,Percentage,51,36,81
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,Costa Rica,Percentage,55,37,88
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Costa Rica,Percentage,58,39,96
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,Ecuador,Percentage,80,65,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,Ecuador,Percentage,80,64,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,Ecuador,Percentage,79,63,100
@@ -1913,7 +1913,7 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,Egypt,Percentage,59,52,68
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Egypt,Percentage,73,63,84
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,Egypt,Percentage,88,76,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,C涔坱e d'Ivoire,Percentage,59,39,99
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,Croatia,Percentage,59,39,99
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,Croatia,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,Croatia,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,Croatia,Percentage,87,75,100
@@ -4300,12 +4300,12 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,San Marino,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,San Marino,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2003,San Marino,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2009,T鐪塺kiye,Percentage,86,67,110
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,T鐪塺kiye,Percentage,86,68,110
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,T鐪塺kiye,Percentage,86,69,110
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,T鐪塺kiye,Percentage,86,71,110
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2013,T鐪塺kiye,Percentage,86,72,110
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2014,T鐪塺kiye,Percentage,86,72,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2009,T閻『kiye,Percentage,86,67,110
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,T閻『kiye,Percentage,86,68,110
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,T閻『kiye,Percentage,86,69,110
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2012,T閻『kiye,Percentage,86,71,110
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2013,T閻『kiye,Percentage,86,72,110
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2014,T閻『kiye,Percentage,86,72,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,Solomon Islands,Percentage,80,63,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2003,Solomon Islands,Percentage,80,63,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2004,Solomon Islands,Percentage,80,63,100
@@ -4341,15 +4341,15 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2005,Tunisia,Percentage,79,66,95
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2006,Tunisia,Percentage,79,66,96
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2007,Tunisia,Percentage,79,65,97
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2015,T鐪塺kiye,Percentage,85,72,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,T鐪塺kiye,Percentage,85,72,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,T鐪塺kiye,Percentage,85,73,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2018,T鐪塺kiye,Percentage,85,73,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2019,T鐪塺kiye,Percentage,85,74,99
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2020,T鐪塺kiye,Percentage,69,59,81
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,T鐪塺kiye,Percentage,73,59,92
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,T鐪塺kiye,Percentage,81,65,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,T鐪塺kiye,Percentage,81,65,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2015,T閻『kiye,Percentage,85,72,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,T閻『kiye,Percentage,85,72,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,T閻『kiye,Percentage,85,73,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2018,T閻『kiye,Percentage,85,73,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2019,T閻『kiye,Percentage,85,74,99
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2020,T閻『kiye,Percentage,69,59,81
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,T閻『kiye,Percentage,73,59,92
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,T閻『kiye,Percentage,81,65,100
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,T閻『kiye,Percentage,81,65,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,Turkmenistan,Percentage,79,46,170
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,Turkmenistan,Percentage,78,46,160
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,Turkmenistan,Percentage,77,47,150
@@ -4393,9 +4393,9 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,Tunisia,Percentage,60,47,79
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Tunisia,Percentage,73,57,95
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2023,Tunisia,Percentage,68,54,89
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,T鐪塺kiye,Percentage,84,63,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,T鐪塺kiye,Percentage,84,64,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,T鐪塺kiye,Percentage,84,63,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2000,T閻『kiye,Percentage,84,63,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2001,T閻『kiye,Percentage,84,64,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2002,T閻『kiye,Percentage,84,63,120
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2009,Turkmenistan,Percentage,73,49,120
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2010,Turkmenistan,Percentage,73,49,120
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2011,Turkmenistan,Percentage,73,52,110
@@ -4787,12 +4787,12 @@ IND_ID,IND_CODE,INDICATOR_NAME,YEAR,COUNTRY,UNIT,VALUE,VALUE_LO,VALUE_HI
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2016,Slovenia,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2017,Slovenia,Percentage,87,75,100
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2018,Slovenia,Percentage,87,75,100
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2003,T鐪塺kiye,Percentage,85,64,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2004,T鐪塺kiye,Percentage,85,65,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2005,T鐪塺kiye,Percentage,85,63,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2006,T鐪塺kiye,Percentage,85,64,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2007,T鐪塺kiye,Percentage,86,65,120
-1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2008,T鐪塺kiye,Percentage,86,66,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2003,T閻『kiye,Percentage,85,64,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2004,T閻『kiye,Percentage,85,65,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2005,T閻『kiye,Percentage,85,63,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2006,T閻『kiye,Percentage,85,64,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2007,T閻『kiye,Percentage,86,65,120
+1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2008,T閻『kiye,Percentage,86,66,120
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2020,Nicaragua,Percentage,68,55,89
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2021,Nicaragua,Percentage,64,51,85
 1DF5AD9CCEB8D7,TB_e_tx_coverage_prct,TB treatment coverage (%),2022,Nicaragua,Percentage,72,56,96
